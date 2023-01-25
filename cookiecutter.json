@@ -1,0 +1,9 @@
+{
+    "project_name": "typescript_project",
+    "project_description": "Typescript project",
+    "git_url": [
+        "github.com",
+        "github.ibm.com"
+    ],
+    "git_organisation": "JulianOstmo"
+}

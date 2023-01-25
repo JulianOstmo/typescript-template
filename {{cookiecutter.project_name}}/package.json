@@ -1,19 +1,19 @@
 {
-  "name": "typescript-template",
+  "name": "{{cookiecutter.project_name}}",
   "version": "1.0.0",
-  "description": "Template repository for TypeScript/NodeJS/Express projects",
+  "description": "{{cookiecutter.project_description}}",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JulianOstmo/typescript-template.git"
+    "url": "git+https://{{cookiecutter.git_url}}/{{cookiecutter.git_organisation}}/{{cookiecutter.project_name}}.git"
   },
   "keywords": [],
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/JulianOstmo/typescript-template/issues"
+    "url": "https://{{cookiecutter.git_url}}/{{cookiecutter.git_organisation}}/{{cookiecutter.project_name}}/issues"
   },
-  "homepage": "https://github.com/JulianOstmo/typescript-template#readme",
+  "homepage": "https://{{cookiecutter.git_url}}/{{cookiecutter.git_organisation}}/{{cookiecutter.project_name}}#readme",
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "detect-secrets": "cross-env-shell scripts/detect-secrets.sh",

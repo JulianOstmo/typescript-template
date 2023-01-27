@@ -27,6 +27,8 @@
     "prettier:fix": "prettier --write",
     "prettier:verify": "prettier --check \"*.{js,ts,css,md,yml,json}\"",
     "start:dev": "npx nodemon",
+    "test:bdd": "jest ./features",
+    "test:bdd:watch": "npm run test:bdd -- --watch",
     "test:unit": "jest ./test",
     "test:unit:watch": "npm run test:unit -- --watch",
     "prepare": "husky install"
@@ -60,6 +62,8 @@
     "eslint": "^8.31.0",
     "husky": "^8.0.3",
     "jest": "^29.3.1",
+    "jest-config": "^29.4.0",
+    "jest-cucumber-fusion": "^0.8.1",
     "lint-staged": "^13.1.0",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.2",

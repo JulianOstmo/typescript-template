@@ -26,7 +26,15 @@
 	"Pomodoro": {
 	  "scope": "markdown",
 	  "prefix": ["pom", "pomodoro"],
-	  "body": ["## Pomodoro $1", "", "Driver: $2  ", "Navigator: $3  ", "", "- ⚠ $4", ""],
+	  "body": [
+		"## Pomodoro $1",
+		"",
+		"Driver: $2  ",
+		"Navigator: $3  ",
+		"",
+		"- ⚠ $4",
+		""
+	  ],
 	  "description": "Pomodoro template"
 	}
   }

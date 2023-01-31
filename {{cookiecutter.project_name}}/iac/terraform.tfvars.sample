@@ -5,5 +5,5 @@ availability_zones = ["eu-west-2a", "eu-west-2b"]
 public_subnets     = ["10.10.100.0/24", "10.10.101.0/24"]
 private_subnets    = ["10.10.0.0/24", "10.10.1.0/24"]
 
-app_name        = "{{cookiecuttter.project_name}}-app"
+app_name        = "{{cookiecutter.project_name}}-app"
 app_environment = "qa"

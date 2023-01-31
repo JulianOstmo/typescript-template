@@ -17,7 +17,7 @@ resource "aws_cloudwatch_log_group" "log-group" {
   }
 }
 
-resource "aws_ecs_task_definition" "{{cookiecuttter.project_name}}" {
+resource "aws_ecs_task_definition" "{{cookiecutter.project_name}}" {
   family = "${var.app_name}-task"
 
   # TODO: Update containerPort and hostPort to use a variable for port

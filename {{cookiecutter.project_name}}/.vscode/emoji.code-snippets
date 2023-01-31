@@ -1,0 +1,33 @@
+{
+	"Todo": {
+	  "scope": "markdown",
+	  "prefix": ["todo", "warning"],
+	  "body": "⚠",
+	  "description": "Warning emoji"
+	},
+	"In progress": {
+	  "scope": "markdown",
+	  "prefix": ["ip"],
+	  "body": "🚧",
+	  "description": "In progress emoji"
+	},
+	"Done": {
+	  "scope": "markdown",
+	  "prefix": ["ok", "done"],
+	  "body": "✅",
+	  "description": "Done emoji"
+	},
+	"Error": {
+	  "scope": "markdown",
+	  "prefix": ["err"],
+	  "body": "❌",
+	  "description": "Error emoji"
+	},
+	"Pomodoro": {
+	  "scope": "markdown",
+	  "prefix": ["pom", "pomodoro"],
+	  "body": ["## Pomodoro $1", "", "Driver: $2  ", "Navigator: $3  ", "", "- ⚠ $4", ""],
+	  "description": "Pomodoro template"
+	}
+  }
+  

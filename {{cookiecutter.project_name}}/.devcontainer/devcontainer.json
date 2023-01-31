@@ -3,7 +3,15 @@
   "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
   // "features": {},
   // "forwardPorts": [],
-  "postCreateCommand": "bash -i -c 'nvm install && nvm use && npm install'"
-  // "customizations": {},
+  "postCreateCommand": "bash -i -c 'nvm install && nvm use && npm install'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vsliveshare.vsliveshare"
+      ]
+    }
+  }
   // "remoteUser": "root"
 }
